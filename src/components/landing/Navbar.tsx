@@ -9,21 +9,20 @@ import ProfileHeader from "../ui/profile-header"
 
 const Navbar = () => {
     return (
-        <nav className="inset-x-0 fixed top-0 z-50 bg-white shadow-sm dark:bg-gray-950/90">
+        <nav className="p-2 inset-x-0 sticky top-0 z-50 bg-white shadow-sm dark:bg-gray-950/90 border border-solid border-gray-200">
             <div className="w-full max-w-7xl mx-auto px-4">
                 <div className="flex justify-between h-14 items-center">
                     <div className="flex items-center gap-5">
-                        <Link to = {"/"}><TrelloLogo /></Link>
-                        <Pipe />
-                        <Link to = {"/"}><TrelloMarkBlue /></Link>
+                        <Link to={"/"}><TrelloLogo /></Link>
+                        <Pipe css />
+                        <Link to={"/"}><TrelloMarkBlue /></Link>
                         <BoardText />
-                        <Pipe />
-                        <div className="block md:hidden"><SearchIcon/></div>
+                        <Pipe css />
+                        <div className="block md:hidden"><SearchIcon /></div>
                     </div>
-                    {/* SearchBar */}
-                    <SearchInput/>
+                    <SearchInput />
                     <div className="flex gap-3 items-center">
-                        <ProfileHeader/>
+                        <ProfileHeader />
                     </div>
                 </div>
             </div>
