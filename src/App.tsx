@@ -1,11 +1,15 @@
-import { Button } from "./components/ui/button"
+import { BrowserRouter, Routes } from "react-router-dom"
+import Navbar from "./components/landing/Navbar"
 
 function App() {
 
   return (
-    <div>
-      <Button variant={"outline"}>HI ShadCN</Button>
-    </div>
+    <BrowserRouter>
+    <Navbar/>
+    <Routes>
+        hi
+    </Routes>
+  </BrowserRouter>
   )
 }
 
