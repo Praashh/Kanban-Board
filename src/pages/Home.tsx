@@ -5,7 +5,7 @@ const Home = () => {
   return (
     <>
       <Hero />
-      <div className="flex flex-col md:flex-row">
+      <div className="flex flex-col md:flex-row p-2 md:p-4 relative">
         <Design heading="Design" />
         <Design heading="Prototip" />
         <Design heading="Trello" />

@@ -14,7 +14,7 @@ const LeftMenu = () => {
                 <button><Pipe css={false} /></button>
                 <div className="flex gap-2 items-center">
                     <button> <Globe /></button>
-                    <p className="text-lg md:text-xl">Public</p>
+                    <p className="text-lg md:text-xl text-[#bfbebe]">Public</p>
                 </div>
                 <button><Pipe css={false} /></button>
                 <button><Hard /></button>
