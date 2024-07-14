@@ -1,19 +1,18 @@
-import LeftMenu from "@/components/ui/left-menu"
-import Menu from "@/components/ui/menu"
+import Design from "@/components/landing/Design"
+import Hero from "@/components/landing/Hero"
 
 const Home = () => {
   return (
-    <div className='flex p-2 md:p-6 w-full items-center gap-0 md:justify-between'>
-      <div className="md:w-1/2">
-        <LeftMenu />
+    <>
+      <Hero />
+      <div className="flex flex-col md:flex-row">
+        <Design heading="Design" />
+        <Design heading="Prototip" />
+        <Design heading="Trello" />
+        <Design heading="Test" />
+        <Design heading="Final" />
       </div>
-      <div className="flex gap-6 md:gap-3 items-center mt-10 md:mt-0 justify-between md:justify-evenly w-full md:w-1/3">
-        <div className="w-1/2 md:w-1/4">
-          <Menu />
-        </div>
-        <p className="font-sans text-black text-xl md:text-2xl ml-3 md:-ml-4">Menu</p>
-      </div>
-    </div>
+    </>
   )
 }
 
