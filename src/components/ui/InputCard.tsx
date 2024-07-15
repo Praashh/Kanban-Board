@@ -1,5 +1,5 @@
 import { useEffect } from "react"
-import InputDialog from "./input-dialog"
+import InputDialog from "./InputDialog"
 
 
 export function InputCard() {

@@ -1,7 +1,7 @@
-import Globe from "./globe"
-import Hard from "./hard"
-import Heart from "./heart"
-import Pipe from "./pipe"
+import Globe from "./icons/globe"
+import Hard from "./icons/hard"
+import Heart from "./icons/heart"
+import Pipe from "./icons/pipe"
 
 const LeftMenu = () => {
     return (

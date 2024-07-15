@@ -1,6 +1,6 @@
-import Attachments from "./attachment"
-import Heart from "./heart"
-import MessageIcon from "./msg"
+import Attachments from "./icons/attachment"
+import Heart from "./icons/heart"
+import MessageIcon from "./icons/msg"
 
 const CardInfo = () => {
   return (

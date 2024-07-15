@@ -1,13 +1,13 @@
 import { Link } from "react-router-dom"
-import TrelloLogo from "../ui/trello"
-import Pipe from "../ui/pipe"
-import TrelloMarkBlue from "../ui/trello-mark-blue"
-import BoardText from "../ui/board-text"
+import TrelloLogo from "../ui/icons/trello"
+import Pipe from "../ui/icons/pipe"
+import TrelloMarkBlue from "../ui/icons/trello-mark-blue"
+import BoardText from "../ui/icons/board-text"
 import { SearchIcon } from "lucide-react"
-import SearchInput from "../ui/search-bar"
-import ProfileHeader from "../ui/profile-header"
-import { Dialog, DialogContent, DialogTrigger } from "../ui/dialog"
-import { Input } from "../ui/input"
+import SearchInput from "../ui/SearchBar"
+import ProfileHeader from "../ui/ProfileHeader"
+import { Dialog, DialogContent, DialogTrigger } from "../ui/Dialog"
+import { Input } from "../ui/Input"
 
 const Navbar = () => {
     return (

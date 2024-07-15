@@ -1,6 +1,6 @@
-import { Button } from "./button"
-import { Dialog, DialogContent, DialogFooter, DialogHeader, DialogTitle, DialogTrigger } from "./dialog"
-import { Input } from "./input"
+import { Button } from "./Button"
+import { Dialog, DialogContent, DialogFooter, DialogHeader, DialogTitle, DialogTrigger } from "./Dialog"
+import { Input } from "./Input"
 
 type DialogProps = {
   inputDialog: any;

@@ -1,9 +1,9 @@
-import AlertCircle from "./alert-circle"
-import { Avatar, AvatarFallback, AvatarImage } from "./avatar"
-import Notification from "./notification"
-import Plus from "./plus"
+import AlertCircle from "./icons/alert-circle"
+import { Avatar, AvatarFallback, AvatarImage } from "./Avatar"
+import Notification from "./icons/notification"
+import Plus from "./icons/plus"
 import img from "@/assets/profile.png"
-import InputDialog from "./input-dialog"
+import InputDialog from "./InputDialog"
 
 const ProfileHeader = () => {
   return (
