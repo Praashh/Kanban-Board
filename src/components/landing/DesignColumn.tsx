@@ -18,7 +18,7 @@ const DesignColumn = ({ cards }: DesignColumnProps) => {
         <div>
             {
                 cards.map((item) => {
-                    return <div className='bg-red-300' key={item.id}>
+                    return <div className='' key={item.id}>
                         <SortableContext items={cards} strategy={verticalListSortingStrategy}>
                             <CardContent id={item.id} title={item.title} description={item.discription} key={item.id} img={item?.img} />
                         </SortableContext>

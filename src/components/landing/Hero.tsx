@@ -3,7 +3,7 @@ import Menu from "../ui/menu"
 
 const Hero = () => {
     return (
-        <div className='flex p-2 md:p-6 w-full items-center gap-0 md:justify-between'>
+        <div className='flex p-2 md:p-6 md:px-10 w-full items-center gap-0 md:justify-between'>
             <div className="md:w-1/2">
                 <LeftMenu />
             </div>
