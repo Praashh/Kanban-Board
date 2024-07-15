@@ -21,6 +21,7 @@ const Menu3Dot = () => {
                                 new title
                             </label>
                             <Input
+                                required
                                 id="title"
                                 className="col-span-3"
                             />
@@ -30,6 +31,7 @@ const Menu3Dot = () => {
                                 new desc
                             </label>
                             <Input
+                                required
                                 id="description"
                                 className="col-span-3"
                             />
@@ -39,6 +41,7 @@ const Menu3Dot = () => {
                                 attachment
                             </label>
                             <Input
+                                required
                                 id="attachment"
                                 type="file"
                                 className="col-span-3 ml-2"
@@ -50,7 +53,7 @@ const Menu3Dot = () => {
                         </div>
                     </div>
                     <DialogFooter>
-                        <Button type="submit">Save changes</Button>
+                        <Button onClick={()=>{confirm("Cross check your details...")}} type="submit">Save changes</Button>
                     </DialogFooter>
                 </DialogContent>
             </Dialog>

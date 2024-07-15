@@ -27,10 +27,6 @@ progress.
   npm run start
 ```
 
-## Demo
-[![Watch the video](./public/demo.png)](https://youtu.be/64fcbIze0rs?si=rF87hNt0DVjHNxOP)
-
-
 ## Authors
 
 - [@Praashh](https://www.github.com/Praashh)

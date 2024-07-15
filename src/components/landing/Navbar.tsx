@@ -6,6 +6,8 @@ import BoardText from "../ui/board-text"
 import { SearchIcon } from "lucide-react"
 import SearchInput from "../ui/search-bar"
 import ProfileHeader from "../ui/profile-header"
+import { Dialog, DialogContent, DialogTrigger } from "../ui/dialog"
+import { Input } from "../ui/input"
 
 const Navbar = () => {
     return (
@@ -18,7 +20,26 @@ const Navbar = () => {
                         <Link to={"/"}><TrelloMarkBlue /></Link>
                         <BoardText />
                         <Pipe css />
-                        <div className="block md:hidden"><SearchIcon /></div>
+                        <div className="block md:hidden">
+                        <Dialog>
+                            <DialogTrigger asChild>
+                                <div ><SearchIcon /></div>
+                            </DialogTrigger>
+                            <DialogContent className="sm:max-w-[425px] flex items-center justify-center">
+                                <div className="grid gap-4 py-4">
+                                    <div className="text-center">Search</div>
+                                    <div className="grid grid-cols-4 items-center justify-center gap-4">
+                                        <Input
+                                            required
+                                            id="search"
+                                            type="text"
+                                            className="col-span-4 ml-2 rounded-full"
+                                        />
+                                    </div>
+                                </div>
+                            </DialogContent>
+                        </Dialog>
+                        </div>
                     </div>
                     <SearchInput />
                     <div className="flex gap-3 items-center">
