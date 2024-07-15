@@ -1,4 +1,4 @@
-import Attachments from "./attechment"
+import Attachments from "./attachment"
 import Heart from "./heart"
 import MessageIcon from "./msg"
 
