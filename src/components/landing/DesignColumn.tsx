@@ -1,6 +1,6 @@
 import React from 'react'
 import { SortableContext, verticalListSortingStrategy } from '@dnd-kit/sortable';
-import CardContent from '../ui/card-content';
+import CardContent from '../ui/CardContent';
 
 type DesignColumnPropsData = {
     id: number;

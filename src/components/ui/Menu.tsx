@@ -1,4 +1,4 @@
-import { AnimatedTooltip } from "./animated-tooltip";
+import { AnimatedTooltip } from "./AnimationTooltip";
 
 const Menu = () => {
   const people = [

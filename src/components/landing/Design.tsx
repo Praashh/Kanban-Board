@@ -1,9 +1,9 @@
 import { useState } from "react"
-import { InputCard } from "../ui/input-card"
+import { InputCard } from "../ui/InputCard"
 import { closestCorners, DndContext, KeyboardSensor, PointerSensor, TouchSensor, useSensor, useSensors } from "@dnd-kit/core"
 import DesignColumn from "./DesignColumn"
 import { arrayMove, sortableKeyboardCoordinates } from "@dnd-kit/sortable"
-import Menu3Dot from "../ui/menu-3dot"
+import Menu3Dot from "../ui/Menu3Dot"
 
 type DesignProp = {
     heading: string;

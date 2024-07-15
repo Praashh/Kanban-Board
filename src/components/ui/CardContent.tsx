@@ -1,7 +1,7 @@
 import { useSortable } from "@dnd-kit/sortable"
 import { CSS } from "@dnd-kit/utilities"
-import MemberList from "./member-add";
-import CardInfo from "./card-info-right";
+import MemberList from "./MemberAdd";
+import CardInfo from "./CardInfoRight";
 type CardContentProps = {
     id: number;
     img?:string;

@@ -1,10 +1,10 @@
-import LeftMenu from "../ui/left-menu"
-import Menu from "../ui/menu"
+import LeftMenu from "../ui/LeftMenu"
+import Menu from "../ui/Menu"
 
 const Hero = () => {
     return (
         <div className='flex p-2 md:p-6 md:px-10 w-full items-center gap-0 md:justify-between'>
-            <div className="md:w-1/2">
+            <div className="md:w-1/2 px-2 md:px-0">
                 <LeftMenu />
             </div>
             <div className="flex gap-6 md:gap-3 items-center mt-10 md:mt-0 justify-between md:justify-evenly w-full md:w-1/3">
